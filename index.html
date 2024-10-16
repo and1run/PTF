@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrei Repida Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="orange">
+            <img  src="https://digitalcenter.orange.md/wp-content/uploads/2023/03/Logo.svg"  alt="Orange logo image">
+        </div>
+        <div id="logo">logo</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <div class="picture">
+                <img src="images/Like.jpg" alt="repida andrei image">
+            </div>
+            
+            <div class="greeting">
+                <p>Hello!                            
+                                   
+                    I’m <b>Andrew</b>, a junior developer with a deep enthusiasm for technology and a strong desire to take on new projects. With a solid foundation in coding and a creative approach to problem-solving, I thrive in collaborative environments where innovative ideas can flourish. I’m eager to learn and grow, ready to embrace challenges that help turn concepts into reality.  </p>
+                
+               
+            </div>
+        </section>
+        
+        <section id="skills">
+            <div>
+                <h3>Hard skills:</h3>
+                <ul>
+                  <li>HTML/CSS</li>
+                  <li>JavaScript</li>
+                  <li>Excel/GoogleSheets</li>
+                  <li>SQL</li>
+                  <li>Python</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Soft skills :</h3>
+                <ul>
+                  <li>Language: Romanian, Russian, English</li>
+                  <li>Attention to detail</li>
+                  <li>Analitical Thinking</li>
+                  <li>Continuous Learning</li>
+                </ul>
+            </div>
+            
+        </section>
+
+        <section id="projects">
+            
+            <h3 style="color: white;">Projects:</h3>
+            <div class="container-projects">
+                <div class="project">
+                    <p>Calendar</p>
+                    <a href="https://and1run.github.io/Calendar-2024/"><img src="images/Calendar.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <p>Chess</p>
+                    <a href="https://and1run.github.io/ChessbordTable/"><img src="images/Chess.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <p>Form</p>
+                    <a href="https://and1run.github.io/FormaSimplificata/"><img src="images/Form.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <p>Modal Window</p>
+                    <a href="https://and1run.github.io/ModalWindow/"><img src="images/modal window.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <p>Counter</p>
+                    <a href="https://and1run.github.io/counter/"><img src="images/counter.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <p>Tip Calculator</p>
+                    <a href="https://and1run.github.io/TipCalc/"><img src="images/tip calculator.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <p>Random Qoute Generator</p>
+                    <a href="https://and1run.github.io/Random-Quote-Generator/"><img src="images/quote.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <p>To-Do List</p>
+                    <a href="https://and1run.github.io/To-do-List/"><img src="images/todo.png" alt=""></a>
+                </div>
+                <div class="project">
+                    <p>Actors Card</p>
+                    <a href="https://and1run.github.io/Actors-Card/"><img src="images/actorscard.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+
+            <div>
+
+                <p>Repida Andrei</p>
+                <p>Chişinău, Moldova</p>
+                <p>andrewrep24@gmail.com</p>
+                <button class="btn" onclick="window.open('./images/CV.pdf')">Download CV</button>
+
+            </div>
+            <div>
+                <div><a href="https://www.linkedin.com/in/andrei-repida-649b8828b/"><img src="images/icons8-linked-in.svg" alt="My Linked In Profile"></a></div>
+                <div>
+                    <a href="https://github.com/and1run"><img src="images/icons8-github.svg" alt="My Git-hub Profile"></a>
+                </div>
+                
+            </div>
+            
+            
+        </section>
+
+        <section id="container">
+            <form class="container">
+                <div class="row">
+                    <div class="item">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" placeholder=" Your first name ...">
+                    </div>
+                    <div class="item">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" placeholder=" Your last name ...">
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="item">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder=" Your email ...">
+                    </div>
+                    <div class="item">
+                        <label for="phone">Phone number</label>
+                        <input type="text" id="phone" placeholder=" Your phone number ...">
+                    </div>
+                </div>
+                <div >
+                    <label for="subject">Subject</label>
+                    <textarea name="" id="subject"  placeholder=" Write something ..."></textarea>
+                </div>
+                <div class="row" >
+                    <input type="submit" id="sub">
+                </div>
+            </form>
+        </section>
+    
+        
+    </main>
+    
+    <footer>
+        &copy; 2024 My Portfolio. All rights reserved. <strong>logo</strong>
+    </footer>
+</body>
+</html>
